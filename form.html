@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/elastic-form.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/notify.js"></script>
+    <script type="text/javascript" src="js/parsley.min.js"></script>
+    <script type="text/javascript" src="js/elastic-form.js"></script>
+    <title>Form sample</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form role="form" id="elastic-form">
+                <div class="form-group">
+                <label for="email">Email address</label>
+                <input id="email" class="form-control" type="email" placeholder="Enter email"
+                       data-required="true" data-type="email"/>
+            </div>
+                <div class="form-group">
+                    <label for="firstname">First Name</label>
+                    <input id="firstname" class="form-control" type="text" placeholder="Enter first name"
+                           data-required="true"/>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input id="lastname" class="form-control" type="text" placeholder="Enter last name"
+                           data-required="true"/>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input id="age" class="form-control" type="text" placeholder="Enter age"
+                           data-required="true" data-type="number" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" class="form-control" type="password" placeholder="Enter password"
+                           data-required="true" data-min="8"/>
+                </div>
+                <div class="form-group">
+                    <label for="url">Site URL</label>
+                    <input id="url" class="form-control" type="text" placeholder="Enter a URL"
+                           data-required="true" data-type="url"/>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

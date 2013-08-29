@@ -1,0 +1,403 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-x-altx-alt, .icon-untitled, .icon-wrench, .icon-warning, .icon-volume, .icon-users, .icon-user3, .icon-user2, .icon-user, .icon-unlocked, .icon-twitter2, .icon-twitter, .icon-trophy2, .icon-trophy, .icon-tree, .icon-thumbs-up2, .icon-thumbs-up, .icon-tag, .icon-tablet, .icon-stats2, .icon-stats, .icon-star2, .icon-star, .icon-spinner2, .icon-spinner, .icon-signup, .icon-search, .icon-screen, .icon-salesforce-sf, .icon-rocket-angle, .icon-remove, .icon-question-mark, .icon-profile, .icon-point-up, .icon-pointing, .icon-podcast, .icon-plus, .icon-play2, .icon-play, .icon-play-2, .icon-pie, .icon-phone, .icon-pencil, .icon-pcs, .icon-paste, .icon-new-tab, .icon-newspaper, .icon-move-vertical, .icon-mobile2, .icon-mobile, .icon-minus, .icon-menu, .icon-loop, .icon-lock, .icon-list, .icon-linkedin, .icon-linegraph, .icon-library, .icon-laptop, .icon-info, .icon-image, .icon-home, .icon-grid, .icon-google-plus2, .icon-google-plus, .icon-fullscreen, .icon-floppy, .icon-flag, .icon-file-pdf, .icon-file, .icon-feed, .icon-facebook2, .icon-facebook, .icon-exit, .icon-envelope, .icon-enter, .icon-document-fill, .icon-diary, .icon-connection, .icon-coin, .icon-cogs, .icon-cog, .icon-cloud, .icon-close, .icon-clock2, .icon-clock, .icon-checkmark, .icon-check-alt, .icon-chart-alt, .icon-chart, .icon-camera, .icon-calendar2, .icon-calendar, .icon-bubble, .icon-briefcase, .icon-box-add, .icon-bookmark, .icon-bell, .icon-bars-alt, .icon-bars3, .icon-bars2, .icon-arrow-up-right, .icon-arrow-up-left, .icon-arrow-up, .icon-arrow-up-2, .icon-arrow-right, .icon-arrow-right-2, .icon-arrow-left, .icon-arrow-left-2, .icon-arrow-down-right, .icon-arrow-down-left, .icon-arrow-down, .icon-arrow-down-2, .icon-alert, .icon-alarm2, .icon-alarm, .icon-aid, .icon-shield, .icon-menu2, .icon-earth, .icon-bars {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-x-altx-alt:before {
+	content: "\e000";
+}
+.icon-untitled:before {
+	content: "\e001";
+}
+.icon-wrench:before {
+	content: "\e002";
+}
+.icon-warning:before {
+	content: "\e003";
+}
+.icon-volume:before {
+	content: "\e004";
+}
+.icon-users:before {
+	content: "\e005";
+}
+.icon-user3:before {
+	content: "\e006";
+}
+.icon-user2:before {
+	content: "\e007";
+}
+.icon-user:before {
+	content: "\e008";
+}
+.icon-unlocked:before {
+	content: "\e009";
+}
+.icon-twitter2:before {
+	content: "\e00a";
+}
+.icon-twitter:before {
+	content: "\e00b";
+}
+.icon-trophy2:before {
+	content: "\e00c";
+}
+.icon-trophy:before {
+	content: "\e00d";
+}
+.icon-tree:before {
+	content: "\e00e";
+}
+.icon-thumbs-up2:before {
+	content: "\e00f";
+}
+.icon-thumbs-up:before {
+	content: "\e010";
+}
+.icon-tag:before {
+	content: "\e011";
+}
+.icon-tablet:before {
+	content: "\e012";
+}
+.icon-stats2:before {
+	content: "\e013";
+}
+.icon-stats:before {
+	content: "\e014";
+}
+.icon-star2:before {
+	content: "\e015";
+}
+.icon-star:before {
+	content: "\e016";
+}
+.icon-spinner2:before {
+	content: "\e017";
+}
+.icon-spinner:before {
+	content: "\e018";
+}
+.icon-signup:before {
+	content: "\e019";
+}
+.icon-search:before {
+	content: "\e01a";
+}
+.icon-screen:before {
+	content: "\e01b";
+}
+.icon-salesforce-sf:before {
+	content: "\e01c";
+}
+.icon-rocket-angle:before {
+	content: "\e01d";
+}
+.icon-remove:before {
+	content: "\e01e";
+}
+.icon-question-mark:before {
+	content: "\e01f";
+}
+.icon-profile:before {
+	content: "\e020";
+}
+.icon-point-up:before {
+	content: "\e021";
+}
+.icon-pointing:before {
+	content: "\e022";
+}
+.icon-podcast:before {
+	content: "\e023";
+}
+.icon-plus:before {
+	content: "\e024";
+}
+.icon-play2:before {
+	content: "\e025";
+}
+.icon-play:before {
+	content: "\e026";
+}
+.icon-play-2:before {
+	content: "\e027";
+}
+.icon-pie:before {
+	content: "\e028";
+}
+.icon-phone:before {
+	content: "\e029";
+}
+.icon-pencil:before {
+	content: "\e02a";
+}
+.icon-pcs:before {
+	content: "\e02b";
+}
+.icon-paste:before {
+	content: "\e02c";
+}
+.icon-new-tab:before {
+	content: "\e02d";
+}
+.icon-newspaper:before {
+	content: "\e02e";
+}
+.icon-move-vertical:before {
+	content: "\e02f";
+}
+.icon-mobile2:before {
+	content: "\e030";
+}
+.icon-mobile:before {
+	content: "\e031";
+}
+.icon-minus:before {
+	content: "\e032";
+}
+.icon-menu:before {
+	content: "\e033";
+}
+.icon-loop:before {
+	content: "\e034";
+}
+.icon-lock:before {
+	content: "\e035";
+}
+.icon-list:before {
+	content: "\e036";
+}
+.icon-linkedin:before {
+	content: "\e037";
+}
+.icon-linegraph:before {
+	content: "\e038";
+}
+.icon-library:before {
+	content: "\e039";
+}
+.icon-laptop:before {
+	content: "\e03a";
+}
+.icon-info:before {
+	content: "\e03b";
+}
+.icon-image:before {
+	content: "\e03c";
+}
+.icon-home:before {
+	content: "\e03d";
+}
+.icon-grid:before {
+	content: "\e03e";
+}
+.icon-google-plus2:before {
+	content: "\e03f";
+}
+.icon-google-plus:before {
+	content: "\e040";
+}
+.icon-fullscreen:before {
+	content: "\e041";
+}
+.icon-floppy:before {
+	content: "\e042";
+}
+.icon-flag:before {
+	content: "\e043";
+}
+.icon-file-pdf:before {
+	content: "\e044";
+}
+.icon-file:before {
+	content: "\e045";
+}
+.icon-feed:before {
+	content: "\e046";
+}
+.icon-facebook2:before {
+	content: "\e047";
+}
+.icon-facebook:before {
+	content: "\e048";
+}
+.icon-exit:before {
+	content: "\e049";
+}
+.icon-envelope:before {
+	content: "\e04a";
+}
+.icon-enter:before {
+	content: "\e04b";
+}
+.icon-document-fill:before {
+	content: "\e04c";
+}
+.icon-diary:before {
+	content: "\e04d";
+}
+.icon-connection:before {
+	content: "\e04e";
+}
+.icon-coin:before {
+	content: "\e04f";
+}
+.icon-cogs:before {
+	content: "\e050";
+}
+.icon-cog:before {
+	content: "\e051";
+}
+.icon-cloud:before {
+	content: "\e052";
+}
+.icon-close:before {
+	content: "\e053";
+}
+.icon-clock2:before {
+	content: "\e054";
+}
+.icon-clock:before {
+	content: "\e055";
+}
+.icon-checkmark:before {
+	content: "\e056";
+}
+.icon-check-alt:before {
+	content: "\e057";
+}
+.icon-chart-alt:before {
+	content: "\e058";
+}
+.icon-chart:before {
+	content: "\e059";
+}
+.icon-camera:before {
+	content: "\e05a";
+}
+.icon-calendar2:before {
+	content: "\e05b";
+}
+.icon-calendar:before {
+	content: "\e05c";
+}
+.icon-bubble:before {
+	content: "\e05d";
+}
+.icon-briefcase:before {
+	content: "\e05e";
+}
+.icon-box-add:before {
+	content: "\e05f";
+}
+.icon-bookmark:before {
+	content: "\e060";
+}
+.icon-bell:before {
+	content: "\e061";
+}
+.icon-bars-alt:before {
+	content: "\e062";
+}
+.icon-bars3:before {
+	content: "\e063";
+}
+.icon-bars2:before {
+	content: "\e064";
+}
+.icon-arrow-up-right:before {
+	content: "\e065";
+}
+.icon-arrow-up-left:before {
+	content: "\e066";
+}
+.icon-arrow-up:before {
+	content: "\e067";
+}
+.icon-arrow-up-2:before {
+	content: "\e068";
+}
+.icon-arrow-right:before {
+	content: "\e069";
+}
+.icon-arrow-right-2:before {
+	content: "\e06a";
+}
+.icon-arrow-left:before {
+	content: "\e06b";
+}
+.icon-arrow-left-2:before {
+	content: "\e06c";
+}
+.icon-arrow-down-right:before {
+	content: "\e06d";
+}
+.icon-arrow-down-left:before {
+	content: "\e06e";
+}
+.icon-arrow-down:before {
+	content: "\e06f";
+}
+.icon-arrow-down-2:before {
+	content: "\e070";
+}
+.icon-alert:before {
+	content: "\e071";
+}
+.icon-alarm2:before {
+	content: "\e072";
+}
+.icon-alarm:before {
+	content: "\e073";
+}
+.icon-aid:before {
+	content: "\e074";
+}
+.icon-shield:before {
+	content: "\e075";
+}
+.icon-menu2:before {
+	content: "\e076";
+}
+.icon-earth:before {
+	content: "\e077";
+}
+.icon-bars:before {
+	content: "\e078";
+}

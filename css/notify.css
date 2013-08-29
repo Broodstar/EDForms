@@ -1,0 +1,81 @@
+@font-face {
+    font-family: dosis;
+    src: url("../font/dosis-light.ttf");
+}
+body {
+    padding-top: 40px;
+    font-family: dosis;
+    height:100%;
+    overflow:auto;
+}
+.notifyjs-corner .notifyjs-container{
+    height:60px;
+}
+.notifyjs-top-banner-base {
+    min-height:60px;
+}
+.notifyjs-top-banner-base:after{
+    clear: both;
+}
+.notifyjs-container .icon-info{
+    color: #1B75BB;
+    float: left;
+    margin-right: 11px;
+    font-size: 20px;
+}
+.notifyjs-container .icon-x-altx-alt {
+    color: #EE2D2F;
+    float: left;
+    margin-right: 11px;
+    font-size: 20px;
+}
+.notifyjs-container .icon-check-alt {
+    color: #00A550;
+    float: left;
+    margin-right: 11px;
+    font-size: 20px;
+}
+.notifyjs-container .icon-alert {
+    color: #F0B521;
+    float: left;
+    margin-right: 11px;
+    margin-top: -2px;
+    font-size: 20px;
+}
+.banner-container .icon-x-altx-alt {
+    color: #FFFFFF;
+    float: right;
+    font-size: 20px;
+    line-height: 43px;
+}
+.banner-container h3{
+    float: left;
+    margin-top: 10px;
+}
+.banner-container .bnr-msg{
+    margin-left: 40px;
+}
+.notifyjs-container h3.title{
+    float:left;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.notifyjs-container .icon-x-altx-alt.close-btn{
+    float: right;
+    color: #F0B521;
+    margin-right: -32px;
+    margin-top: 3px;
+}
+.notifyjs-container p{
+    font-size: 12px;
+}
+.notifyjs-container p.close-btn{
+    color: #1B75BB;
+}
+.notifyjs-top-banner-base, .notifyjs-message-base{
+    cursor: default;
+}
+.banner-container .icon-x-altx-alt, .notifyjs-message-base .close-btn{
+    cursor: pointer;
+}
